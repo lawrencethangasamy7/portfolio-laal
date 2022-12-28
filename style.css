@@ -1,0 +1,510 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+#headr{
+		background-color:#e0f7fa;
+		position:sticky;
+       top:0;
+	   z-index:1;
+}
+.container{
+	margin:0 auto;
+	width:85%;
+}
+.headrow{
+	width:100%;
+	padding:8px;
+	display:none;
+	align-items:center;
+	justify-content:space-between;	
+}
+.nav a{
+	text-decoration:none;
+	padding:10px;
+	font-size:20px;
+	color:block;
+}
+
+/**--apout**/
+.profile{
+	background:url(counts-bg.jpg);
+	height:100vh;
+	width:100%;
+	background-attachment:fixed;
+	background-size:cover;
+}
+.hiii{
+	font-size:40px;
+	color:red;
+	text-align:center;
+	align-self:center;
+}
+.waviy {
+  position: relative;
+  font-size: 70px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+	height:100%;
+}
+.waviy span {
+  font-family: 'Alfa Slab One', cursive;
+  position: relative;
+  display: inline-block;
+  color: #e64a19e0;
+  text-transform: uppercase;
+  animation: waviy 1s infinite;
+  animation-delay: calc(.1s * var(--i));
+  
+}
+@keyframes waviy {
+  0%,40%,100% {
+    transform: translateY(0);
+  }
+ 20%{
+    transform: translateY(-20px);
+  }
+}
+	
+	
+/**---about**/
+#about3{
+	margin:50px 0;
+}
+.container2{
+	width:85%;
+	margin:auto;
+}
+.about1 img{
+	border-radius:50%;
+	max-width:100%;
+}
+.col{
+	width:20%;
+}
+.col1{
+	width:80%;
+}
+.row1{
+	display:flex;
+	gap:3%;
+}
+.name h2{
+	color:red;
+	font-size:35px;
+}
+.obejctive h2{
+	color:red;
+	font-size:30px;
+}
+.obejctive p{
+	font-size:25px;
+	color:#011514;
+}
+
+/**---**/
+#skills{
+	margin:50px 0;
+}
+.containerskill{
+	padding:40px 0;
+	width:85%;
+	margin:auto;
+	background-color:#0000ff2b;
+}
+.colwork{
+	text-align:center;
+}
+.rowskills{
+	display:flex;
+}
+.colskill{
+	width:33.3%;
+}
+.skils{
+	padding:40px;
+}
+.work h2{
+	color:red;
+}
+.skils h2{
+	color:red;
+}
+.skils h6{
+	font-size:20px;
+}
+.list{
+ font-size:20px;
+ line-height:35px;
+} 
+
+
+
+/**--edication**/
+#edication{
+	margin:50px 0;
+}
+.containeredi{
+	width:85%;
+	margin:auto;
+	padding:40px 0;
+	background-color:#0000ff2b;
+}
+.contantedi{
+	text-align:center;
+}
+.contantedi h1{
+	color:red;
+	line-height:65px;
+}
+.edirow{
+	display:flex;
+    width: 90%;
+    margin: auto;
+}
+.edicol{
+	width:50%;
+    padding:30px;
+}
+.edicard{
+	background-color:white;
+	text-align:center;
+	padding:50px;
+	box-shadow:0 0 15px red;
+}
+.edicol:hover{
+	transition:all 1s;
+	transform:translateX(-10px);
+}
+.edicard h1{
+	color:red
+}
+.edicard li{
+	font-size:20px;
+	list-style:none;
+	color:#9494e2;
+}
+
+
+/**--project**/
+
+.procontainer{
+	width:85%;
+	margin:auto;
+		padding:20px 0;
+	background-color:#0000ff2b;
+	
+}
+.procontant{
+	text-align:center;
+	color:red;
+}
+.procol{
+	width:100%;
+	padding:10px 0;
+}
+.procard img{
+	width:80%;
+}
+.procard{
+	justify-content:center;
+	display:flex;
+}
+.projectcard a{
+    padding: 0px 31px;
+    background:#9494e2;
+    border-radius: 3%;
+    border-color:5px solid red;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.projectcard{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+		}
+.prorow{
+	text-align:center;
+}
+
+
+
+/**contact**/
+#contact{
+	margin:50px 0;
+}
+.containercon{
+	width:85%;
+	margin:auto;
+	padding:30px 0;
+	background-color:#0000ff2b;
+}
+.contantcon{
+	text-align:center;
+}
+.contantcon h1{
+	color:red;
+}
+.conrow{
+	display:flex;
+	width:100%;
+}
+.concol{
+    padding:0 20px;
+	width:25%;
+align-self:center;
+}
+.concard h2{
+	color:red;
+}
+.concard p{
+	font-size:25px;
+}
+.concard address p{
+	font-size:15px;
+	color:#9494e2;
+}
+.concard a{
+	font-size:25px;
+}
+.concard{
+	padding:20px;
+	background-color:white;
+	box-shadow:0 0 10px red;
+	text-align:center;
+}
+.concard a{
+	text-decoration:none;
+}
+
+
+/**footer**/
+#footer{
+	margin:50px 0;
+}
+.fotercontai{
+	width:85%;
+	margin:auto;
+	padding:30px 0;
+	background-color:#0000ff2b;
+}
+.contantcon{
+	text-align:center;
+}
+.contantcon a{
+	text-decoration:none;
+}
+	
+	
+	
+@media(min-width:320px){
+	
+	
+	
+	/*about*/
+#span span{
+	font-size:20px;
+}	
+ .container2{
+	width:100%;
+	margin:auto;
+}
+.row1{
+	
+	flex-wrap:wrap;
+}
+.col{
+	width:100%;
+}
+.col1{
+	width:100%;
+}
+.about1{
+	width:100%;
+}
+
+/*sikil*/
+
+.containerskill{
+	width:100%;
+}
+.rowskills{
+	display:flex;
+	flex-wrap:wrap;
+}
+.colskill{
+	width:100%;
+}
+
+/*ediction*/
+
+.containeredi{
+	width:100%;
+}
+.edirow{
+	display:flex;
+	flex-wrap:wrap;
+}
+.edicol{
+	width:100%;
+}
+
+/*project*/
+
+.procontainer{
+	width:100%;
+}
+.prorow{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	align-items:center;
+}
+.procol{
+	width:100%;
+}
+}
+/*contact*/
+.containercon{
+	width:100%;
+}
+.conrow{
+	display:flex;
+	flex-wrap:wrap;
+}
+.concol{
+	width:100%;
+	margin-bottom:10px;
+}
+}
+@media(min-width:690px){
+	#span span{
+	font-size:70px;
+}
+ .container2{
+	width:100%;
+	margin:auto;
+}
+.row1{
+	display:flex;
+	flex-wrap:nowrap;
+}
+/*skill*/
+.containerskill{
+	width:100%;
+}
+.rowskills{
+	display:flex;
+	flex-wrap:wrap;
+}
+.colskill{
+	width:100%;
+}
+/*ediction*/
+.containeredi{
+	width:100%;
+}
+.edirow{
+	display:flex;
+	flex-wrap:wrap;
+}
+.edicol{
+	width:100%;
+}
+
+/*project*/
+
+.procontainer{
+	width:100%;
+}
+.prorow{
+	display:flex;
+	flex-wrap:wrap;
+}
+.procol{
+	width:100%;
+}
+/*contact*/
+
+.containercon{
+	width:100%;
+}
+.conrow{
+	display:flex;
+	flex-wrap:wrap;
+}
+.concol{
+	width:100%;
+}
+}
+@media(min-width:1020px){
+		#span span{
+	font-size:70px;
+}
+	/*about*/
+ .container2{
+	width:85%;
+	margin:auto;
+}
+.row1{
+	display:flex;
+	flex-wrap:nowrap;
+}
+.col{
+	width:20%;
+}
+.col1{
+	width:80%;
+}
+/*skil*/
+.containerskill{
+	width:85%;
+	margin:auto;
+}
+.rowskills{
+	display:flex;
+	flex-wrap:nowrap;
+}
+.colskill{
+	width:33.3%;
+}
+/*ediction*/
+.containeredi{
+	width:85%;
+}
+.edirow{
+	display:flex;
+	flex-wrap:nowrap;
+}
+.edicol{
+	width:50%;
+}
+/*project*/
+
+.procontainer{
+	width:85%;
+}
+.conrow{
+	display:flex;
+	flex-wrap:nowrap;
+}
+.concol{
+	width:100%;
+}
+/*contact*/
+
+.containercon{
+	width:85%;
+}
+.conrow{
+	display:flex;
+	flex-wrap:nowrap;
+	width:100%;
+}
+.concol{
+	width:25%;
+}
+}
